@@ -342,7 +342,7 @@ ModuleDefinition :
     BEGIN
     ModuleBody
     END
-    { yylex.(*MyLexer).result = &ModuleDefinition{ModuleIdentifier: $1, TagDefault: $3, ExtensibilityImplied: $4, ModuleBody: $7} }
+    { yylex.(*ASN1Lexer).result = &ModuleDefinition{ModuleIdentifier: $1, TagDefault: $3, ExtensibilityImplied: $4, ModuleBody: $7} }
 ;
 
 typereference: TYPEORMODULEREFERENCE  { $$ = TypeReference($1) }

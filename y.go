@@ -1064,7 +1064,7 @@ yydefault:
 		yyDollar = yyS[yypt-8 : yypt+1]
 //line asn1.y:345
 		{
-			yylex.(*MyLexer).result = &ModuleDefinition{ModuleIdentifier: yyDollar[1].ModuleIdentifier, TagDefault: yyDollar[3].TagDefault, ExtensibilityImplied: yyDollar[4].ExtensionDefault, ModuleBody: yyDollar[7].ModuleBody}
+			yylex.(*ASN1Lexer).result = &ModuleDefinition{ModuleIdentifier: yyDollar[1].ModuleIdentifier, TagDefault: yyDollar[3].TagDefault, ExtensibilityImplied: yyDollar[4].ExtensionDefault, ModuleBody: yyDollar[7].ModuleBody}
 		}
 	case 2:
 		yyDollar = yyS[yypt-1 : yypt+1]

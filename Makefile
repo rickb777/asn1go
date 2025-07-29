@@ -1,8 +1,12 @@
 default: y.go generate
 .PHONY: default
 
-y.go: asn1.y
+y.go: asn1.y tool
 	goyacc asn1.y
+
+tool:
+	go install tool
+.PHONY: tool
 
 generate:
 	go generate -v ./...

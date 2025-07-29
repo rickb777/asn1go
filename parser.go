@@ -19,7 +19,7 @@ func ParseString(str string) (*ModuleDefinition, error) {
 
 // ParseStream reads text of ASN.1 definitions from provided reader and parses it into ASN.1 AST.
 func ParseStream(reader io.Reader) (*ModuleDefinition, error) {
-	lex := &MyLexer{}
+	lex := &ASN1Lexer{}
 	lex.bufReader = bufio.NewReader(reader)
 	yyParse(lex)
 	if lex.err != nil {
