@@ -94,17 +94,19 @@ import (
 
 %token EXPONENT // differs from spec, for REAL values to work
 
-// single-symbol tokens
+// single-symbol tokens used in pairs
 %token OPEN_CURLY  // "{"
 %token CLOSE_CURLY  // "}"
-%token LESS  // "<"
-%token GREATER  // ">"
-%token COMMA  // ","
-%token DOT  // "."
 %token OPEN_ROUND  // "("
 %token CLOSE_ROUND  // ")"
 %token OPEN_SQUARE  // "["
 %token CLOSE_SQUARE  // "]"
+
+// single-symbol tokens
+%token LESS  // "<"
+%token GREATER  // ">"
+%token COMMA  // ","
+%token DOT  // "."
 %token MINUS  // "-" (HYPEN-MINUS)
 %token COLON  // ":"
 %token EQUALS  // "="
@@ -119,84 +121,84 @@ import (
 
 // reserved words
 %token ABSENT
-%token ENCODED
-%token INTEGER
-%token RELATIVE_OID
 %token ABSTRACT_SYNTAX
-%token END
-%token INTERSECTION
-%token SEQUENCE
 %token ALL
-%token ENUMERATED
-%token ISO646String
-%token SET
 %token APPLICATION
-%token EXCEPT
-%token MAX
-%token SIZE
 %token AUTOMATIC
-%token EXPLICIT
-%token MIN
-%token STRING
 %token BEGIN
-%token EXPORTS
-%token MINUS_INFINITY
-%token SYNTAX
 %token BIT
-%token EXTENSIBILITY
-%token NULL
-%token T61String
 %token BMPString
-%token EXTERNAL
-%token NumericString
-%token TAGS
 %token BOOLEAN
-%token FALSE
-%token OBJECT
-%token TeletexString
 %token BY
-%token FROM
-%token ObjectDescriptor
-%token TRUE
 %token CHARACTER
-%token GeneralizedTime
-%token OCTET
-%token TYPE_IDENTIFIER
 %token CHOICE
-%token GeneralString
-%token OF
-%token UNION
 %token CLASS
-%token GraphicString
-%token OPTIONAL
-%token UNIQUE
 %token COMPONENT
-%token IA5String
-%token PATTERN
-%token UNIVERSAL
 %token COMPONENTS
-%token IDENTIFIER
-%token PDV
-%token UniversalString
 %token CONSTRAINED
-%token IMPLICIT
-%token PLUS_INFINITY
-%token UTCTime
 %token CONTAINING
-%token IMPLIED
-%token PRESENT
-%token UTF8String
 %token DEFAULT
-%token IMPORTS
-%token PrintableString
-%token VideotexString
 %token DEFINITIONS
-%token INCLUDES
-%token PRIVATE
-%token VisibleString
 %token EMBEDDED
+%token ENCODED
+%token END
+%token ENUMERATED
+%token EXCEPT
+%token EXPLICIT
+%token EXPORTS
+%token EXTENSIBILITY
+%token EXTERNAL
+%token FALSE
+%token FROM
+%token GeneralString
+%token GeneralizedTime
+%token GraphicString
+%token IA5String
+%token IDENTIFIER
+%token IMPLICIT
+%token IMPLIED
+%token IMPORTS
+%token INCLUDES
 %token INSTANCE
+%token INTEGER
+%token INTERSECTION
+%token ISO646String
+%token MAX
+%token MIN
+%token MINUS_INFINITY
+%token NULL
+%token NumericString
+%token OBJECT
+%token OCTET
+%token OF
+%token OPTIONAL
+%token ObjectDescriptor
+%token PATTERN
+%token PDV
+%token PLUS_INFINITY
+%token PRESENT
+%token PRIVATE
+%token PrintableString
 %token REAL
+%token RELATIVE_OID
+%token SEQUENCE
+%token SET
+%token SIZE
+%token STRING
+%token SYNTAX
+%token T61String
+%token TAGS
+%token TRUE
+%token TYPE_IDENTIFIER
+%token TeletexString
+%token UNION
+%token UNIQUE
+%token UNIVERSAL
+%token UTCTime
+%token UTF8String
+%token UniversalString
+%token VideotexString
+%token VisibleString
 %token WITH
 // X.208-specific
 %token ANY

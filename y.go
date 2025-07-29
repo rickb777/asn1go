@@ -96,14 +96,14 @@ const XMLASN1TYPENAME = 57366
 const EXPONENT = 57367
 const OPEN_CURLY = 57368
 const CLOSE_CURLY = 57369
-const LESS = 57370
-const GREATER = 57371
-const COMMA = 57372
-const DOT = 57373
-const OPEN_ROUND = 57374
-const CLOSE_ROUND = 57375
-const OPEN_SQUARE = 57376
-const CLOSE_SQUARE = 57377
+const OPEN_ROUND = 57370
+const CLOSE_ROUND = 57371
+const OPEN_SQUARE = 57372
+const CLOSE_SQUARE = 57373
+const LESS = 57374
+const GREATER = 57375
+const COMMA = 57376
+const DOT = 57377
 const MINUS = 57378
 const COLON = 57379
 const EQUALS = 57380
@@ -116,84 +116,84 @@ const PIPE = 57386
 const EXCLAMATION = 57387
 const CARET = 57388
 const ABSENT = 57389
-const ENCODED = 57390
-const INTEGER = 57391
-const RELATIVE_OID = 57392
-const ABSTRACT_SYNTAX = 57393
-const END = 57394
-const INTERSECTION = 57395
-const SEQUENCE = 57396
-const ALL = 57397
-const ENUMERATED = 57398
-const ISO646String = 57399
-const SET = 57400
-const APPLICATION = 57401
-const EXCEPT = 57402
-const MAX = 57403
-const SIZE = 57404
-const AUTOMATIC = 57405
-const EXPLICIT = 57406
-const MIN = 57407
-const STRING = 57408
-const BEGIN = 57409
-const EXPORTS = 57410
-const MINUS_INFINITY = 57411
-const SYNTAX = 57412
-const BIT = 57413
-const EXTENSIBILITY = 57414
-const NULL = 57415
-const T61String = 57416
-const BMPString = 57417
-const EXTERNAL = 57418
-const NumericString = 57419
-const TAGS = 57420
-const BOOLEAN = 57421
-const FALSE = 57422
-const OBJECT = 57423
-const TeletexString = 57424
-const BY = 57425
-const FROM = 57426
-const ObjectDescriptor = 57427
-const TRUE = 57428
-const CHARACTER = 57429
-const GeneralizedTime = 57430
-const OCTET = 57431
-const TYPE_IDENTIFIER = 57432
-const CHOICE = 57433
-const GeneralString = 57434
-const OF = 57435
-const UNION = 57436
-const CLASS = 57437
-const GraphicString = 57438
-const OPTIONAL = 57439
-const UNIQUE = 57440
-const COMPONENT = 57441
-const IA5String = 57442
-const PATTERN = 57443
-const UNIVERSAL = 57444
-const COMPONENTS = 57445
-const IDENTIFIER = 57446
-const PDV = 57447
-const UniversalString = 57448
-const CONSTRAINED = 57449
-const IMPLICIT = 57450
-const PLUS_INFINITY = 57451
-const UTCTime = 57452
-const CONTAINING = 57453
-const IMPLIED = 57454
-const PRESENT = 57455
-const UTF8String = 57456
-const DEFAULT = 57457
-const IMPORTS = 57458
-const PrintableString = 57459
-const VideotexString = 57460
-const DEFINITIONS = 57461
-const INCLUDES = 57462
-const PRIVATE = 57463
-const VisibleString = 57464
-const EMBEDDED = 57465
-const INSTANCE = 57466
-const REAL = 57467
+const ABSTRACT_SYNTAX = 57390
+const ALL = 57391
+const APPLICATION = 57392
+const AUTOMATIC = 57393
+const BEGIN = 57394
+const BIT = 57395
+const BMPString = 57396
+const BOOLEAN = 57397
+const BY = 57398
+const CHARACTER = 57399
+const CHOICE = 57400
+const CLASS = 57401
+const COMPONENT = 57402
+const COMPONENTS = 57403
+const CONSTRAINED = 57404
+const CONTAINING = 57405
+const DEFAULT = 57406
+const DEFINITIONS = 57407
+const EMBEDDED = 57408
+const ENCODED = 57409
+const END = 57410
+const ENUMERATED = 57411
+const EXCEPT = 57412
+const EXPLICIT = 57413
+const EXPORTS = 57414
+const EXTENSIBILITY = 57415
+const EXTERNAL = 57416
+const FALSE = 57417
+const FROM = 57418
+const GeneralString = 57419
+const GeneralizedTime = 57420
+const GraphicString = 57421
+const IA5String = 57422
+const IDENTIFIER = 57423
+const IMPLICIT = 57424
+const IMPLIED = 57425
+const IMPORTS = 57426
+const INCLUDES = 57427
+const INSTANCE = 57428
+const INTEGER = 57429
+const INTERSECTION = 57430
+const ISO646String = 57431
+const MAX = 57432
+const MIN = 57433
+const MINUS_INFINITY = 57434
+const NULL = 57435
+const NumericString = 57436
+const OBJECT = 57437
+const OCTET = 57438
+const OF = 57439
+const OPTIONAL = 57440
+const ObjectDescriptor = 57441
+const PATTERN = 57442
+const PDV = 57443
+const PLUS_INFINITY = 57444
+const PRESENT = 57445
+const PRIVATE = 57446
+const PrintableString = 57447
+const REAL = 57448
+const RELATIVE_OID = 57449
+const SEQUENCE = 57450
+const SET = 57451
+const SIZE = 57452
+const STRING = 57453
+const SYNTAX = 57454
+const T61String = 57455
+const TAGS = 57456
+const TRUE = 57457
+const TYPE_IDENTIFIER = 57458
+const TeletexString = 57459
+const UNION = 57460
+const UNIQUE = 57461
+const UNIVERSAL = 57462
+const UTCTime = 57463
+const UTF8String = 57464
+const UniversalString = 57465
+const VideotexString = 57466
+const VisibleString = 57467
 const WITH = 57468
 const ANY = 57469
 const DEFINED = 57470
@@ -226,14 +226,14 @@ var yyToknames = [...]string{
 	"EXPONENT",
 	"OPEN_CURLY",
 	"CLOSE_CURLY",
-	"LESS",
-	"GREATER",
-	"COMMA",
-	"DOT",
 	"OPEN_ROUND",
 	"CLOSE_ROUND",
 	"OPEN_SQUARE",
 	"CLOSE_SQUARE",
+	"LESS",
+	"GREATER",
+	"COMMA",
+	"DOT",
 	"MINUS",
 	"COLON",
 	"EQUALS",
@@ -246,84 +246,84 @@ var yyToknames = [...]string{
 	"EXCLAMATION",
 	"CARET",
 	"ABSENT",
-	"ENCODED",
-	"INTEGER",
-	"RELATIVE_OID",
 	"ABSTRACT_SYNTAX",
-	"END",
-	"INTERSECTION",
-	"SEQUENCE",
 	"ALL",
-	"ENUMERATED",
-	"ISO646String",
-	"SET",
 	"APPLICATION",
-	"EXCEPT",
-	"MAX",
-	"SIZE",
 	"AUTOMATIC",
-	"EXPLICIT",
-	"MIN",
-	"STRING",
 	"BEGIN",
-	"EXPORTS",
-	"MINUS_INFINITY",
-	"SYNTAX",
 	"BIT",
-	"EXTENSIBILITY",
-	"NULL",
-	"T61String",
 	"BMPString",
-	"EXTERNAL",
-	"NumericString",
-	"TAGS",
 	"BOOLEAN",
-	"FALSE",
-	"OBJECT",
-	"TeletexString",
 	"BY",
-	"FROM",
-	"ObjectDescriptor",
-	"TRUE",
 	"CHARACTER",
-	"GeneralizedTime",
-	"OCTET",
-	"TYPE_IDENTIFIER",
 	"CHOICE",
-	"GeneralString",
-	"OF",
-	"UNION",
 	"CLASS",
-	"GraphicString",
-	"OPTIONAL",
-	"UNIQUE",
 	"COMPONENT",
-	"IA5String",
-	"PATTERN",
-	"UNIVERSAL",
 	"COMPONENTS",
-	"IDENTIFIER",
-	"PDV",
-	"UniversalString",
 	"CONSTRAINED",
-	"IMPLICIT",
-	"PLUS_INFINITY",
-	"UTCTime",
 	"CONTAINING",
-	"IMPLIED",
-	"PRESENT",
-	"UTF8String",
 	"DEFAULT",
-	"IMPORTS",
-	"PrintableString",
-	"VideotexString",
 	"DEFINITIONS",
-	"INCLUDES",
-	"PRIVATE",
-	"VisibleString",
 	"EMBEDDED",
+	"ENCODED",
+	"END",
+	"ENUMERATED",
+	"EXCEPT",
+	"EXPLICIT",
+	"EXPORTS",
+	"EXTENSIBILITY",
+	"EXTERNAL",
+	"FALSE",
+	"FROM",
+	"GeneralString",
+	"GeneralizedTime",
+	"GraphicString",
+	"IA5String",
+	"IDENTIFIER",
+	"IMPLICIT",
+	"IMPLIED",
+	"IMPORTS",
+	"INCLUDES",
 	"INSTANCE",
+	"INTEGER",
+	"INTERSECTION",
+	"ISO646String",
+	"MAX",
+	"MIN",
+	"MINUS_INFINITY",
+	"NULL",
+	"NumericString",
+	"OBJECT",
+	"OCTET",
+	"OF",
+	"OPTIONAL",
+	"ObjectDescriptor",
+	"PATTERN",
+	"PDV",
+	"PLUS_INFINITY",
+	"PRESENT",
+	"PRIVATE",
+	"PrintableString",
 	"REAL",
+	"RELATIVE_OID",
+	"SEQUENCE",
+	"SET",
+	"SIZE",
+	"STRING",
+	"SYNTAX",
+	"T61String",
+	"TAGS",
+	"TRUE",
+	"TYPE_IDENTIFIER",
+	"TeletexString",
+	"UNION",
+	"UNIQUE",
+	"UNIVERSAL",
+	"UTCTime",
+	"UTF8String",
+	"UniversalString",
+	"VideotexString",
+	"VisibleString",
 	"WITH",
 	"ANY",
 	"DEFINED",
@@ -335,7 +335,7 @@ const yyEofCode = 1
 const yyErrCode = 2
 const yyInitialStackSize = 16
 
-//line asn1.y:1071
+//line asn1.y:1073
 
 //line yacctab:1
 var yyExca = [...]int16{
@@ -343,72 +343,72 @@ var yyExca = [...]int16{
 	1, -1,
 	-2, 0,
 	-1, 31,
-	52, 24,
+	68, 24,
 	-2, 27,
 	-1, 47,
-	31, 3,
+	35, 3,
 	-2, 2,
 	-1, 178,
 	44, 239,
-	94, 239,
+	118, 239,
 	-2, 235,
 	-1, 180,
 	46, 242,
-	53, 242,
+	88, 242,
 	-2, 237,
 	-1, 184,
-	60, 245,
+	70, 245,
 	-2, 243,
 	-1, 193,
 	16, 264,
-	28, 264,
+	32, 264,
 	-2, 258,
 	-1, 252,
-	32, 6,
+	28, 6,
 	-2, 4,
 	-1, 329,
 	46, 242,
-	53, 242,
+	88, 242,
 	-2, 238,
 	-1, 421,
-	30, 138,
+	34, 138,
 	-2, 132,
 }
 
 const yyPrivate = 57344
 
-const yyLast = 912
+const yyLast = 920
 
 var yyAct = [...]int16{
 	219, 205, 408, 218, 374, 208, 350, 220, 127, 17,
 	193, 177, 259, 317, 313, 17, 281, 277, 238, 291,
 	333, 242, 250, 210, 202, 262, 163, 184, 182, 180,
-	246, 159, 170, 217, 241, 3, 144, 151, 5, 19,
-	168, 38, 29, 295, 19, 416, 11, 9, 19, 168,
-	265, 19, 133, 19, 168, 19, 19, 46, 165, 54,
-	46, 296, 411, 297, 233, 204, 204, 165, 169, 334,
-	45, 54, 165, 45, 273, 227, 215, 169, 274, 46,
-	150, 232, 169, 190, 46, 225, 19, 224, 62, 24,
-	234, 10, 45, 336, 23, 417, 204, 45, 22, 152,
-	266, 172, 336, 21, 35, 31, 148, 42, 137, 142,
-	172, 415, 162, 134, 263, 172, 195, 129, 161, 58,
-	36, 162, 50, 140, 121, 135, 162, 161, 164, 128,
-	164, 128, 161, 211, 214, 61, 268, 155, 203, 260,
-	221, 171, 123, 269, 223, 47, 48, 221, 226, 231,
-	171, 221, 221, 60, 429, 171, 213, 103, 154, 139,
-	216, 139, 59, 128, 239, 228, 400, 253, 370, 245,
-	124, 65, 63, 309, 229, 318, 399, 122, 388, 385,
-	247, 125, 221, 138, 143, 384, 244, 331, 320, 164,
-	141, 126, 136, 44, 40, 53, 44, 32, 41, 271,
-	128, 278, 258, 319, 4, 48, 325, 53, 128, 345,
-	256, 270, 315, 288, 27, 44, 255, 283, 431, 145,
-	44, 343, 310, 289, 344, 430, 290, 422, 342, 430,
-	420, 406, 299, 301, 326, 403, 308, 292, 395, 394,
-	305, 307, 387, 382, 282, 372, 294, 287, 302, 253,
-	253, 286, 280, 222, 261, 62, 275, 15, 230, 425,
-	4, 48, 393, 235, 236, 164, 164, 365, 363, 164,
-	357, 311, 303, 293, 164, 323, 285, 279, 312, 314,
-	165, 199, 338, 335, 25, 30, 132, 322, 347, 211,
+	246, 159, 170, 217, 241, 3, 144, 19, 168, 265,
+	151, 24, 23, 22, 148, 134, 19, 168, 129, 296,
+	416, 297, 140, 233, 128, 232, 165, 46, 225, 54,
+	46, 224, 334, 38, 29, 165, 169, 19, 168, 268,
+	45, 54, 133, 45, 21, 169, 190, 62, 35, 46,
+	263, 36, 5, 295, 46, 19, 165, 11, 135, 234,
+	128, 260, 45, 19, 152, 204, 169, 45, 42, 31,
+	121, 417, 429, 19, 411, 162, 415, 9, 137, 142,
+	150, 269, 58, 266, 162, 61, 195, 60, 10, 123,
+	336, 430, 172, 141, 273, 274, 310, 318, 164, 336,
+	164, 172, 171, 211, 214, 162, 139, 155, 203, 221,
+	50, 171, 422, 19, 223, 161, 103, 221, 226, 231,
+	47, 48, 172, 204, 161, 319, 213, 221, 154, 136,
+	216, 124, 171, 227, 239, 228, 343, 253, 19, 245,
+	122, 65, 139, 344, 229, 161, 138, 143, 204, 59,
+	247, 125, 44, 128, 53, 44, 244, 289, 215, 164,
+	63, 420, 370, 40, 290, 431, 53, 221, 256, 271,
+	406, 278, 258, 403, 44, 4, 48, 325, 255, 44,
+	430, 270, 292, 395, 394, 41, 387, 283, 382, 145,
+	282, 372, 221, 294, 287, 286, 280, 261, 62, 275,
+	400, 309, 299, 301, 399, 326, 308, 388, 385, 384,
+	305, 307, 331, 320, 126, 32, 128, 345, 302, 253,
+	253, 315, 288, 222, 27, 425, 15, 128, 230, 393,
+	4, 48, 365, 235, 236, 164, 164, 363, 357, 164,
+	311, 303, 293, 285, 164, 323, 279, 25, 312, 314,
+	165, 342, 338, 335, 30, 199, 132, 322, 347, 211,
 	351, 328, 214, 353, 329, 360, 330, 131, 164, 130,
 	7, 348, 368, 355, 421, 346, 19, 361, 19, 358,
 	352, 327, 272, 64, 356, 354, 375, 28, 204, 359,
@@ -421,119 +421,119 @@ var yyAct = [...]int16{
 	264, 390, 389, 423, 392, 410, 398, 405, 409, 402,
 	351, 55, 19, 168, 39, 34, 377, 377, 1, 412,
 	413, 401, 209, 418, 207, 211, 404, 206, 212, 419,
-	407, 165, 386, 349, 362, 201, 200, 187, 72, 120,
+	407, 165, 386, 187, 362, 120, 349, 201, 200, 72,
 	153, 169, 243, 409, 426, 427, 43, 428, 57, 56,
-	37, 360, 276, 69, 94, 77, 86, 149, 237, 99,
-	179, 93, 110, 100, 102, 84, 82, 139, 81, 80,
-	198, 79, 67, 85, 172, 91, 88, 90, 95, 114,
-	106, 71, 111, 197, 89, 162, 96, 113, 332, 194,
-	192, 161, 119, 104, 97, 191, 92, 107, 55, 19,
-	168, 108, 186, 189, 188, 109, 185, 183, 181, 178,
-	391, 115, 176, 175, 171, 105, 174, 173, 165, 116,
-	87, 68, 112, 117, 187, 33, 120, 118, 169, 49,
-	98, 196, 101, 51, 52, 167, 166, 157, 160, 78,
-	158, 94, 156, 248, 251, 83, 99, 73, 93, 110,
-	100, 75, 66, 70, 139, 74, 76, 198, 6, 16,
-	13, 172, 2, 88, 8, 95, 114, 106, 20, 111,
-	0, 89, 162, 96, 113, 0, 0, 0, 161, 119,
-	104, 97, 0, 92, 107, 47, 48, 325, 108, 0,
-	0, 0, 109, 0, 0, 0, 0, 0, 115, 0,
-	0, 171, 105, 0, 0, 0, 116, 0, 0, 112,
-	117, 0, 0, 120, 118, 326, 0, 98, 196, 101,
-	0, 0, 0, 0, 0, 0, 0, 0, 94, 0,
-	0, 0, 0, 99, 0, 93, 110, 100, 0, 0,
+	37, 360, 276, 69, 179, 77, 86, 149, 88, 106,
+	89, 237, 119, 92, 102, 84, 82, 81, 80, 79,
+	67, 85, 91, 90, 93, 71, 197, 332, 194, 192,
+	162, 191, 107, 104, 108, 109, 186, 189, 188, 185,
+	183, 181, 94, 178, 110, 391, 198, 172, 95, 111,
+	96, 97, 176, 175, 174, 173, 87, 171, 68, 33,
+	112, 98, 49, 99, 100, 139, 51, 52, 114, 167,
+	161, 166, 113, 55, 19, 168, 105, 116, 115, 117,
+	118, 196, 101, 157, 160, 78, 158, 156, 248, 251,
+	83, 73, 75, 165, 66, 187, 70, 120, 74, 76,
+	6, 16, 13, 169, 2, 8, 20, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-	88, 0, 95, 114, 106, 0, 111, 0, 89, 55,
-	96, 113, 0, 0, 0, 0, 119, 104, 97, 0,
-	92, 107, 0, 0, 0, 108, 0, 0, 0, 109,
-	0, 0, 0, 0, 0, 115, 0, 120, 0, 105,
-	0, 0, 0, 116, 0, 0, 112, 117, 0, 0,
-	0, 118, 94, 0, 98, 0, 101, 99, 0, 93,
-	110, 100, 0, 0, 0, 0, 0, 147, 0, 0,
-	0, 0, 0, 0, 88, 0, 95, 114, 106, 0,
-	111, 0, 89, 0, 96, 113, 55, 19, 0, 0,
-	119, 104, 97, 0, 92, 107, 0, 0, 0, 108,
-	0, 0, 0, 109, 0, 0, 0, 0, 0, 115,
-	0, 146, 0, 105, 120, 0, 0, 116, 0, 0,
-	112, 117, 0, 0, 0, 118, 0, 0, 98, 94,
-	101, 0, 0, 0, 99, 0, 93, 110, 100, 0,
+	88, 106, 89, 0, 119, 92, 0, 0, 0, 0,
+	0, 0, 0, 0, 0, 0, 93, 0, 0, 0,
+	0, 0, 162, 0, 107, 104, 108, 109, 0, 0,
+	0, 0, 0, 0, 94, 0, 110, 0, 198, 172,
+	95, 111, 96, 97, 0, 0, 0, 0, 0, 171,
+	0, 0, 112, 98, 0, 99, 100, 139, 0, 0,
+	114, 0, 161, 0, 113, 47, 48, 325, 105, 116,
+	115, 117, 118, 196, 101, 0, 0, 0, 0, 0,
+	0, 0, 0, 0, 0, 0, 0, 0, 0, 120,
+	0, 0, 0, 0, 0, 326, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-	0, 88, 0, 95, 114, 106, 0, 111, 0, 89,
-	55, 96, 113, 0, 0, 0, 0, 119, 104, 97,
-	0, 92, 107, 0, 0, 0, 108, 0, 0, 0,
-	109, 0, 0, 0, 0, 0, 115, 0, 120, 0,
-	105, 0, 0, 0, 116, 0, 0, 112, 117, 0,
-	0, 0, 118, 94, 0, 98, 0, 101, 99, 0,
-	93, 110, 100, 0, 0, 0, 0, 0, 0, 0,
-	0, 0, 0, 0, 0, 88, 0, 95, 114, 106,
-	0, 111, 0, 89, 0, 96, 113, 0, 0, 0,
-	0, 119, 104, 97, 0, 92, 107, 0, 0, 0,
-	108, 0, 0, 0, 109, 0, 0, 0, 0, 0,
-	115, 0, 0, 0, 105, 0, 0, 0, 116, 0,
-	0, 112, 117, 0, 0, 0, 118, 0, 0, 98,
-	0, 101,
+	0, 0, 88, 106, 89, 0, 119, 92, 0, 0,
+	0, 0, 0, 0, 0, 0, 55, 0, 93, 0,
+	0, 0, 0, 0, 0, 0, 107, 104, 108, 109,
+	0, 0, 0, 0, 0, 0, 94, 0, 110, 0,
+	120, 0, 95, 111, 96, 97, 0, 0, 0, 0,
+	0, 0, 0, 0, 112, 98, 0, 99, 100, 0,
+	0, 0, 114, 88, 106, 89, 113, 119, 92, 0,
+	105, 116, 115, 117, 118, 0, 101, 55, 19, 93,
+	0, 147, 0, 0, 0, 0, 0, 107, 104, 108,
+	109, 0, 146, 0, 0, 0, 0, 94, 0, 110,
+	0, 120, 0, 95, 111, 96, 97, 0, 0, 0,
+	0, 0, 0, 0, 0, 112, 98, 0, 99, 100,
+	0, 0, 0, 114, 88, 106, 89, 113, 119, 92,
+	0, 105, 116, 115, 117, 118, 0, 101, 55, 0,
+	93, 0, 0, 0, 0, 0, 0, 0, 107, 104,
+	108, 109, 0, 0, 0, 0, 0, 0, 94, 0,
+	110, 0, 120, 0, 95, 111, 96, 97, 0, 0,
+	0, 0, 0, 0, 0, 0, 112, 98, 0, 99,
+	100, 0, 0, 0, 114, 88, 106, 89, 113, 119,
+	92, 0, 105, 116, 115, 117, 118, 0, 101, 0,
+	0, 93, 0, 0, 0, 0, 0, 0, 0, 107,
+	104, 108, 109, 0, 0, 0, 0, 0, 0, 94,
+	0, 110, 0, 0, 0, 95, 111, 96, 97, 0,
+	0, 0, 0, 0, 0, 0, 0, 112, 98, 0,
+	99, 100, 0, 0, 0, 114, 0, 0, 0, 113,
+	0, 0, 0, 105, 116, 115, 117, 118, 0, 101,
 }
 
 var yyPact = [...]int16{
-	353, -1000, -81, 274, -1000, -17, -1000, 319, 31, 20,
-	16, 11, 257, 319, -1000, -1000, -1000, 182, -1000, -1000,
-	302, -70, -1000, -1000, -1000, -1000, -1000, 332, 38, -1000,
-	164, 36, -1000, 68, -75, 139, -1000, 360, 341, 111,
-	93, 225, -1000, -1000, -1000, -1000, -1000, -1000, -1000, 360,
-	-1000, -1000, -1000, 298, 784, -1000, 82, 341, -1000, 58,
-	-1000, -1000, 341, -1000, 784, 176, -1000, -1000, -1000, -1000,
+	353, -1000, 17, 274, -1000, 36, -1000, 319, 1, -71,
+	-72, -73, 250, 319, -1000, -1000, -1000, 226, -1000, -1000,
+	302, -19, -1000, -1000, -1000, -1000, -1000, 332, 47, -1000,
+	216, 6, -1000, 13, -21, 144, -1000, 360, 341, 75,
+	73, 194, -1000, -1000, -1000, -1000, -1000, -1000, -1000, 360,
+	-1000, -1000, -1000, 298, 792, -1000, 58, 341, -1000, 43,
+	-1000, -1000, 341, -1000, 792, 229, -1000, -1000, -1000, -1000,
 	-1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000,
-	-1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, 51, -1000,
-	-1000, -1000, 273, 271, 260, -1000, -52, 47, -1000, 99,
-	97, -92, 633, -1000, -1000, -1000, -1000, -1000, -1000, -1000,
-	-1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, 40,
-	-22, -1000, -1000, 353, -1000, 168, 46, -1000, 385, 255,
-	301, 336, 336, -1000, -1000, 49, 710, -6, -8, 168,
-	48, 710, -12, -29, 7, 168, 784, 784, -1000, 317,
+	-1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -63, -1000,
+	-1000, -1000, 273, 271, 260, -1000, -9, -66, -1000, 62,
+	26, -92, 670, -1000, -1000, -1000, -1000, -1000, -1000, -1000,
+	-1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -1000, -67,
+	-10, -1000, -1000, 353, -1000, 218, 60, -1000, 385, 259,
+	301, 336, 336, -1000, -1000, 161, 731, -36, -39, 218,
+	136, 731, -42, -44, 33, 218, 792, 792, -1000, 317,
 	-1000, -1000, -1000, -1000, 254, -1000, -1000, -1000, -1000, -1000,
-	-1000, -1000, -1000, -1000, -1000, 350, -1000, -1000, 185, 331,
-	-1000, -1000, -1000, 94, -1000, -1000, 224, -1000, -1000, 54,
-	-1000, 6, -1000, 90, -1000, 54, -1000, 385, -1000, -1000,
-	-1000, -1000, -1000, -1000, 296, 168, -25, 228, -1000, 336,
-	250, 222, 214, -1000, 94, 784, 249, 221, -1000, 217,
-	-1000, 181, 196, -1000, 181, -1000, 207, 246, 216, -1000,
-	-54, -30, 168, -1000, 710, 710, -1000, -1000, 207, 245,
-	168, -1000, 710, 710, 336, 168, 168, 138, -1000, -1000,
-	-1000, 191, -1000, -1000, -1000, -1000, 244, 350, 350, -1000,
-	-1000, -1000, -1000, 180, -1000, 329, 167, 185, -1000, 155,
-	559, 294, -1000, 472, 472, -1000, -1000, 472, -1000, -1000,
-	-1000, 154, 41, 168, 202, -1000, 194, -1000, 177, -1000,
-	301, 207, 336, -1000, 168, -1000, 293, 336, 198, -1000,
-	336, 243, 292, -1000, 79, -1000, 46, 784, 168, -1000,
-	168, -1000, 241, -1000, 168, -1000, 168, -1000, -1000, -1000,
-	347, -1000, 240, -1000, -1000, 345, 277, -1000, -1000, 325,
-	-1000, -1000, -1000, -1000, 131, -1000, 323, 215, -1000, -1000,
-	-1000, -1000, -1000, -1000, 32, -1000, -1000, -1000, -1000, -1000,
-	-1000, -1000, 299, -1000, 336, 317, 214, -1000, -1000, 213,
-	-1000, -1000, 94, -1000, 152, 146, -1000, -1000, -1000, 212,
-	-1000, -1000, 168, -1000, -1000, -1000, 145, -1000, 167, -1000,
-	46, -1000, 385, -1000, 235, 209, 208, 168, -1000, 143,
-	133, 207, 336, 205, -1000, -1000, 201, 44, -1000, -1000,
-	-1000, -1000, -1000, -1000, 336, 336, -1000, -2, -1000, -1000,
-	-1000, -1000, -1000, 336, -1000, 200, 287, 197, -1000, -1000,
-	-1000, 321, 232, -1000, -1000, -1000, -1000, -1000, -1000, -1000,
-	37, -1000, 44, 37, 117, -1000, 195, -1000, 199, -1000,
-	37, -1000,
+	-1000, -1000, -1000, -1000, -1000, 350, -1000, -1000, 173, 331,
+	-1000, -1000, -1000, 46, -1000, -1000, 193, -1000, -1000, 10,
+	-1000, -5, -1000, 23, -1000, 10, -1000, 385, -1000, -1000,
+	-1000, -1000, -1000, -1000, 296, 218, 64, 197, -1000, 336,
+	249, 192, 186, -1000, 46, 792, 246, 191, -1000, 190,
+	-1000, 224, 160, -1000, 224, -1000, 178, 245, 189, -1000,
+	-15, -46, 218, -1000, 731, 731, -1000, -1000, 178, 244,
+	218, -1000, 731, 731, 336, 218, 218, 200, -1000, -1000,
+	-1000, 91, -1000, -1000, -1000, -1000, 243, 350, 350, -1000,
+	-1000, -1000, -1000, 223, -1000, 329, 119, 173, -1000, 214,
+	609, 294, -1000, 497, 497, -1000, -1000, 497, -1000, -1000,
+	-1000, 213, 30, 218, 255, -1000, 139, -1000, 219, -1000,
+	301, 178, 336, -1000, 218, -1000, 293, 336, 199, -1000,
+	336, 241, 292, -1000, 78, -1000, 60, 792, 218, -1000,
+	218, -1000, 240, -1000, 218, -1000, 218, -1000, -1000, -1000,
+	347, -1000, 235, -1000, -1000, 345, 277, -1000, -1000, 325,
+	-1000, -1000, -1000, -1000, 155, -1000, 323, 187, -1000, -1000,
+	-1000, -1000, -1000, -1000, 39, -1000, -1000, -1000, -1000, -1000,
+	-1000, -1000, 299, -1000, 336, 317, 186, -1000, -1000, 184,
+	-1000, -1000, 46, -1000, 210, 209, -1000, -1000, -1000, 182,
+	-1000, -1000, 218, -1000, -1000, -1000, 208, -1000, 119, -1000,
+	60, -1000, 385, -1000, 232, 180, 179, 218, -1000, 205,
+	201, 178, 336, 169, -1000, -1000, 166, 86, -1000, -1000,
+	-1000, -1000, -1000, -1000, 336, 336, -1000, 3, -1000, -1000,
+	-1000, -1000, -1000, 336, -1000, 157, 287, 108, -1000, -1000,
+	-1000, 321, 228, -1000, -1000, -1000, -1000, -1000, -1000, -1000,
+	96, -1000, 86, 96, 65, -1000, 87, -1000, 176, -1000,
+	96, -1000,
 }
 
 var yyPgo = [...]int16{
-	0, 32, 13, 34, 157, 1, 548, 544, 542, 540,
-	257, 321, 539, 538, 320, 14, 536, 535, 533, 532,
-	116, 531, 527, 525, 7, 22, 524, 523, 30, 31,
-	522, 10, 520, 519, 518, 517, 516, 515, 26, 18,
-	122, 514, 513, 509, 505, 21, 501, 500, 8, 497,
-	496, 493, 492, 490, 11, 489, 488, 29, 487, 28,
-	25, 27, 486, 484, 483, 482, 475, 470, 83, 469,
-	468, 463, 20, 461, 457, 455, 453, 452, 451, 449,
-	448, 446, 0, 3, 446, 33, 445, 444, 438, 437,
-	436, 435, 433, 432, 17, 430, 429, 428, 119, 162,
-	107, 426, 422, 420, 418, 416, 415, 415, 6, 16,
-	413, 412, 410, 2, 23, 408, 407, 5, 404, 403,
+	0, 32, 13, 34, 146, 1, 536, 535, 534, 532,
+	256, 321, 531, 530, 320, 14, 529, 528, 526, 524,
+	116, 522, 521, 520, 7, 22, 519, 518, 30, 31,
+	517, 10, 516, 515, 514, 513, 501, 499, 26, 18,
+	140, 497, 496, 492, 489, 21, 488, 486, 8, 485,
+	484, 483, 482, 475, 11, 473, 471, 29, 470, 28,
+	25, 27, 469, 468, 467, 466, 461, 459, 76, 458,
+	457, 456, 20, 455, 453, 452, 451, 450, 449, 448,
+	447, 446, 0, 3, 446, 33, 445, 444, 441, 437,
+	436, 435, 433, 432, 17, 430, 429, 428, 112, 179,
+	98, 426, 422, 420, 419, 418, 417, 417, 6, 16,
+	416, 412, 410, 2, 23, 408, 407, 5, 404, 403,
 	402, 398, 395, 394, 12, 24, 19, 387, 385, 383,
 	383, 380, 379, 378, 376, 375, 373, 4, 371, 370,
 	369, 368, 361,
@@ -606,50 +606,50 @@ var yyR2 = [...]int8{
 }
 
 var yyChk = [...]int16{
-	-1000, -121, -8, -3, 6, 119, -13, 26, -7, 64,
-	108, 63, -11, -9, -14, -10, -12, -5, 8, 7,
-	-6, 72, 78, 78, 78, 27, -11, 32, 15, 112,
-	-10, 67, 33, -44, -122, 68, 52, -95, 116, -123,
-	55, -99, -100, -101, -4, -3, -45, 6, 7, -43,
+	-1000, -121, -8, -3, 6, 65, -13, 26, -7, 71,
+	82, 51, -11, -9, -14, -10, -12, -5, 8, 7,
+	-6, 73, 114, 114, 114, 27, -11, 28, 15, 83,
+	-10, 52, 29, -44, -122, 72, 68, -95, 84, -123,
+	49, -99, -100, -101, -4, -3, -45, 6, 7, -43,
 	-40, -42, -41, -4, -45, 6, -96, -97, -98, -99,
-	42, 42, 30, -40, 15, -20, -19, -77, -46, -92,
+	42, 42, 34, -40, 15, -20, -19, -77, -46, -92,
 	-18, -73, -104, -22, -17, -21, -16, -91, -33, -78,
-	-79, -80, -81, -23, -86, -76, -90, -47, 71, 79,
-	-74, -75, 91, 56, 49, 73, 81, 89, 125, 54,
-	58, 127, -87, -4, 88, 110, 75, 92, 96, 100,
-	57, 77, 117, 82, 74, 106, 114, 118, 122, 87,
-	34, 42, -98, 84, -100, -20, 15, -48, 32, 66,
-	26, 26, 26, 104, 66, 26, 93, -48, -68, 62,
-	26, 93, -48, -68, 128, -20, 108, 64, 66, -89,
-	102, 59, 121, -103, -3, -31, -30, -35, -32, -29,
-	-34, 86, 80, -38, -5, 26, -36, -37, 8, 36,
-	-1, 109, 69, -49, -50, -51, -52, -54, -55, 55,
-	-57, -56, -59, -58, -61, -62, -65, 32, -63, -64,
-	-68, -66, -67, -31, -69, -20, 126, -71, 65, 26,
+	-79, -80, -81, -23, -86, -76, -90, -47, 53, 55,
+	-74, -75, 58, 69, 87, 93, 95, 96, 106, 108,
+	109, 127, -87, -4, 78, 121, 54, 77, 79, 80,
+	89, 94, 105, 117, 113, 123, 122, 124, 125, 57,
+	30, 42, -98, 76, -100, -20, 15, -48, 28, 111,
+	26, 26, 26, 81, 111, 26, 97, -48, -68, 110,
+	26, 97, -48, -68, 128, -20, 82, 71, 111, -89,
+	120, 50, 104, -103, -3, -31, -30, -35, -32, -29,
+	-34, 115, 75, -38, -5, 26, -36, -37, 8, 36,
+	-1, 102, 92, -49, -50, -51, -52, -54, -55, 49,
+	-57, -56, -59, -58, -61, -62, -65, 28, -63, -64,
+	-68, -66, -67, -31, -69, -20, 126, -71, 91, 26,
 	-105, -106, -125, -24, 17, -5, -116, -118, -117, -120,
 	-114, -5, -115, -114, -5, 27, -125, -85, -83, -82,
-	-24, 103, -20, -24, 93, 93, -48, 27, -125, -85,
-	-20, -24, 93, 93, 83, -20, -20, -88, -39, -15,
+	-24, 61, -20, -24, 97, 97, -48, 27, -125, -85,
+	-20, -24, 97, 97, 56, -20, -20, -88, -39, -15,
 	8, -3, -45, -102, -29, -15, -28, -15, -27, -14,
-	-25, -26, 7, -5, 8, 31, 25, 8, -1, -124,
-	45, 30, -60, 60, -131, 44, 94, -132, 46, 53,
-	-60, -54, 16, 99, 103, 28, -93, -94, -5, 27,
-	30, -109, 30, -124, -20, 27, 30, 30, 32, 27,
-	30, -126, 30, 27, 30, 97, 115, 93, -20, -24,
-	-20, -24, -126, 27, -20, -24, -20, -24, -5, 35,
-	31, 27, -28, -15, -28, 32, 8, -2, 8, 36,
-	33, -142, -38, -15, -20, 8, 36, 17, -61, -57,
-	-59, 33, -70, -72, 28, -31, 61, -133, -48, -134,
-	-135, -136, 26, 27, 30, 32, -125, -24, -126, -110,
+	-25, -26, 7, -5, 8, 35, 25, 8, -1, -124,
+	45, 34, -60, 70, -131, 44, 118, -132, 46, 88,
+	-60, -54, 16, 60, 61, 32, -93, -94, -5, 27,
+	34, -109, 34, -124, -20, 27, 34, 34, 28, 27,
+	34, -126, 34, 27, 34, 98, 64, 97, -20, -24,
+	-20, -24, -126, 27, -20, -24, -20, -24, -5, 31,
+	35, 27, -28, -15, -28, 28, 8, -2, 8, 36,
+	29, -142, -38, -15, -20, 8, 36, 17, -61, -57,
+	-59, 29, -70, -72, 32, -31, 90, -133, -48, -134,
+	-135, -136, 26, 27, 34, 28, -125, -24, -126, -110,
 	-108, -24, 17, -117, -38, -15, -114, 27, 17, -125,
 	-82, -31, -20, 27, -45, 27, -25, -15, 25, 8,
-	37, 8, 30, -72, -137, 17, -138, -5, -94, -39,
-	-15, -109, 30, -124, 33, 33, -111, 30, 33, -2,
-	-31, -53, -54, 27, 30, 30, -139, -140, -48, 33,
-	33, -126, -108, 30, -126, -127, 30, -112, -113, -82,
-	-128, 18, -137, -137, -141, 113, 47, 97, -119, -117,
-	30, 17, 30, -129, 8, 27, -83, -113, -83, 37,
-	30, 19,
+	37, 8, 34, -72, -137, 17, -138, -5, -94, -39,
+	-15, -109, 34, -124, 29, 29, -111, 34, 29, -2,
+	-31, -53, -54, 27, 34, 34, -139, -140, -48, 29,
+	29, -126, -108, 34, -126, -127, 34, -112, -113, -82,
+	-128, 18, -137, -137, -141, 103, 47, 98, -119, -117,
+	34, 17, 34, -129, 8, 27, -83, -113, -83, 37,
+	34, 19,
 }
 
 var yyDef = [...]int16{
@@ -1062,1179 +1062,1179 @@ yydefault:
 
 	case 1:
 		yyDollar = yyS[yypt-8 : yypt+1]
-//line asn1.y:343
+//line asn1.y:345
 		{
 			yylex.(*MyLexer).result = &ModuleDefinition{ModuleIdentifier: yyDollar[1].ModuleIdentifier, TagDefault: yyDollar[3].TagDefault, ExtensibilityImplied: yyDollar[4].ExtensionDefault, ModuleBody: yyDollar[7].ModuleBody}
 		}
 	case 2:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:346
+//line asn1.y:348
 		{
 			yyVAL.TypeReference = TypeReference(yyDollar[1].name)
 		}
 	case 4:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:351
+//line asn1.y:353
 		{
 			yyVAL.ValueReference = ValueReference(yyDollar[1].name)
 		}
 	case 7:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:362
+//line asn1.y:364
 		{
 			yyVAL.ModuleIdentifier = ModuleIdentifier{Reference: yyDollar[1].name, DefinitiveIdentifier: yyDollar[2].DefinitiveIdentifier}
 		}
 	case 8:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:365
+//line asn1.y:367
 		{
 			yyVAL.DefinitiveIdentifier = DefinitiveIdentifier(yyDollar[2].DefinitiveObjIdComponentList)
 		}
 	case 9:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:366
+//line asn1.y:368
 		{
 			yyVAL.DefinitiveIdentifier = DefinitiveIdentifier(make([]DefinitiveObjIdComponent, 0))
 		}
 	case 10:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:369
+//line asn1.y:371
 		{
 			yyVAL.DefinitiveObjIdComponentList = append(make([]DefinitiveObjIdComponent, 0), yyDollar[1].DefinitiveObjIdComponent)
 		}
 	case 11:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:370
+//line asn1.y:372
 		{
 			yyVAL.DefinitiveObjIdComponentList = append(append(make([]DefinitiveObjIdComponent, 0), yyDollar[1].DefinitiveObjIdComponent), yyDollar[2].DefinitiveObjIdComponentList...)
 		}
 	case 12:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:373
+//line asn1.y:375
 		{
 			yyVAL.DefinitiveObjIdComponent = DefinitiveObjIdComponent{Name: yyDollar[1].name}
 		}
 	case 13:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:374
+//line asn1.y:376
 		{
 			yyVAL.DefinitiveObjIdComponent = DefinitiveObjIdComponent{Id: yyDollar[1].Number.IntValue()}
 		}
 	case 14:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:375
+//line asn1.y:377
 		{
 			yyVAL.DefinitiveObjIdComponent = yyDollar[1].DefinitiveObjIdComponent
 		}
 	case 15:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:378
+//line asn1.y:380
 		{
 			yyVAL.Number = yyDollar[1].Number
 		}
 	case 16:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:382
+//line asn1.y:384
 		{
 			yyVAL.DefinitiveObjIdComponent = DefinitiveObjIdComponent{Name: yyDollar[1].name, Id: yyDollar[3].Number.IntValue()}
 		}
 	case 17:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:385
+//line asn1.y:387
 		{
 			yyVAL.TagDefault = TAGS_EXPLICIT
 		}
 	case 18:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:386
+//line asn1.y:388
 		{
 			yyVAL.TagDefault = TAGS_IMPLICIT
 		}
 	case 19:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:387
+//line asn1.y:389
 		{
 			yyVAL.TagDefault = TAGS_AUTOMATIC
 		}
 	case 20:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:388
+//line asn1.y:390
 		{
 			yyVAL.TagDefault = TAGS_EXPLICIT
 		}
 	case 21:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:391
+//line asn1.y:393
 		{
 			yyVAL.ExtensionDefault = true
 		}
 	case 22:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:392
+//line asn1.y:394
 		{
 			yyVAL.ExtensionDefault = false
 		}
 	case 23:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:395
+//line asn1.y:397
 		{
 			yyVAL.ModuleBody = ModuleBody{Imports: yyDollar[2].Imports, AssignmentList: yyDollar[3].AssignmentList}
 		}
 	case 24:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:396
+//line asn1.y:398
 		{
 			yyVAL.ModuleBody = ModuleBody{}
 		}
 	case 30:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:409
+//line asn1.y:411
 		{
 			yyVAL.Imports = yyDollar[2].Imports
 		}
 	case 31:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:410
+//line asn1.y:412
 		{
 			yyVAL.Imports = make([]SymbolsFromModule, 0)
 		}
 	case 32:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:413
+//line asn1.y:415
 		{
 			yyVAL.Imports = yyDollar[1].Imports
 		}
 	case 33:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:414
+//line asn1.y:416
 		{
 			yyVAL.Imports = make([]SymbolsFromModule, 0)
 		}
 	case 34:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:417
+//line asn1.y:419
 		{
 			yyVAL.Imports = append(make([]SymbolsFromModule, 0), yyDollar[1].SymbolsFromModule)
 		}
 	case 35:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:418
+//line asn1.y:420
 		{
 			yyVAL.Imports = append(yyDollar[1].Imports, yyDollar[2].SymbolsFromModule)
 		}
 	case 36:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:421
+//line asn1.y:423
 		{
 			yyVAL.SymbolsFromModule = SymbolsFromModule{yyDollar[1].SymbolList, yyDollar[3].GlobalModuleReference}
 		}
 	case 37:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:424
+//line asn1.y:426
 		{
 			yyVAL.GlobalModuleReference = GlobalModuleReference{yyDollar[1].name, yyDollar[2].Value}
 		}
 	case 38:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:427
+//line asn1.y:429
 		{
 			yyVAL.Value = yyDollar[1].ObjectIdentifierValue
 		}
 	case 39:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:428
+//line asn1.y:430
 		{
 			yyVAL.Value = yyDollar[1].DefinedValue
 		}
 	case 40:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:429
+//line asn1.y:431
 		{
 			yyVAL.Value = nil
 		}
 	case 41:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:432
+//line asn1.y:434
 		{
 			yyVAL.SymbolList = append(make([]Symbol, 0), yyDollar[1].Symbol)
 		}
 	case 42:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:433
+//line asn1.y:435
 		{
 			yyVAL.SymbolList = append(yyDollar[1].SymbolList, yyDollar[3].Symbol)
 		}
 	case 44:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:440
+//line asn1.y:442
 		{
 			yyVAL.Symbol = TypeReference(yyDollar[1].TypeReference)
 		}
 	case 45:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:441
+//line asn1.y:443
 		{
 			yyVAL.Symbol = ModuleReference(yyDollar[1].name)
 		}
 	case 46:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:442
+//line asn1.y:444
 		{
 			yyVAL.Symbol = ValueReference(yyDollar[1].ValueReference)
 		}
 	case 47:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:448
+//line asn1.y:450
 		{
 			yyVAL.AssignmentList = AssignmentList{yyDollar[1].Assignment}
 		}
 	case 48:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:449
+//line asn1.y:451
 		{
 			yyVAL.AssignmentList = append(yyDollar[1].AssignmentList, yyDollar[2].Assignment)
 		}
 	case 51:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:465
+//line asn1.y:467
 		{
 			yyVAL.Type = yyDollar[1].TypeReference
 		}
 	case 52:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:473
+//line asn1.y:475
 		{
 			yyVAL.DefinedValue = DefinedValue{ModuleReference(yyDollar[1].name), yyDollar[3].ValueReference}
 		}
 	case 53:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:474
+//line asn1.y:476
 		{
 			yyVAL.DefinedValue = DefinedValue{ValueName: yyDollar[1].ValueReference}
 		}
 	case 54:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:489
+//line asn1.y:491
 		{
 			yyVAL.Assignment = TypeAssignment{yyDollar[1].TypeReference, yyDollar[3].Type}
 		}
 	case 55:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:492
+//line asn1.y:494
 		{
 			yyVAL.Assignment = ValueAssignment{yyDollar[1].ValueReference, yyDollar[2].Type, yyDollar[4].Value}
 		}
 	case 77:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:539
+//line asn1.y:541
 		{
 			yyVAL.NamedType = NamedType{Identifier: Identifier(yyDollar[1].name), Type: yyDollar[2].Type}
 		}
 	case 81:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:562
+//line asn1.y:564
 		{
 			yyVAL.Value = yyDollar[1].ObjectIdentifierValue
 		}
 	case 83:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:575
+//line asn1.y:577
 		{
 			yyVAL.Type = BooleanType{}
 		}
 	case 84:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:578
+//line asn1.y:580
 		{
 			yyVAL.Value = Boolean(true)
 		}
 	case 85:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:579
+//line asn1.y:581
 		{
 			yyVAL.Value = Boolean(false)
 		}
 	case 86:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:584
+//line asn1.y:586
 		{
 			yyVAL.Type = IntegerType{}
 		}
 	case 87:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:585
+//line asn1.y:587
 		{
 			yyVAL.Type = IntegerType{yyDollar[3].NamedNumberList}
 		}
 	case 88:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:588
+//line asn1.y:590
 		{
 			yyVAL.NamedNumberList = []NamedNumber{yyDollar[1].NamedNumber}
 		}
 	case 89:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:589
+//line asn1.y:591
 		{
 			yyVAL.NamedNumberList = append(yyDollar[1].NamedNumberList, yyDollar[3].NamedNumber)
 		}
 	case 90:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:592
+//line asn1.y:594
 		{
 			yyVAL.NamedNumber = NamedNumber{Identifier(yyDollar[1].name), yyDollar[3].Number}
 		}
 	case 91:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:593
+//line asn1.y:595
 		{
 			yyVAL.NamedNumber = NamedNumber{Identifier(yyDollar[1].name), yyDollar[3].DefinedValue}
 		}
 	case 92:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:596
+//line asn1.y:598
 		{
 			yyVAL.Number = yyDollar[1].Number
 		}
 	case 93:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:597
+//line asn1.y:599
 		{
 			yyVAL.Number = yyDollar[2].Number.UnaryMinus()
 		}
 	case 94:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:602
+//line asn1.y:604
 		{
 			yyVAL.Value = yyDollar[1].Number
 		}
 	case 95:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:603
+//line asn1.y:605
 		{
 			yyVAL.Value = IdentifiedIntegerValue{Name: yyDollar[1].name}
 		}
 	case 96:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:608
+//line asn1.y:610
 		{
 			yyVAL.Type = yyDollar[3].EnumeratedType
 		}
 	case 97:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:611
+//line asn1.y:613
 		{
 			yyVAL.EnumeratedType = EnumeratedType{RootEnumeration: yyDollar[1].Enumeration}
 		}
 	case 98:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:612
+//line asn1.y:614
 		{
 			yyVAL.EnumeratedType = EnumeratedType{RootEnumeration: yyDollar[1].Enumeration}
 		}
 	case 99:
 		yyDollar = yyS[yypt-6 : yypt+1]
-//line asn1.y:613
+//line asn1.y:615
 		{
 			yyVAL.EnumeratedType = EnumeratedType{RootEnumeration: yyDollar[1].Enumeration, AdditionalEnumeration: yyDollar[6].Enumeration}
 		}
 	case 102:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:621
+//line asn1.y:623
 		{
 			yyVAL.Enumeration = []EnumerationItem{yyDollar[1].EnumerationItem}
 		}
 	case 103:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:622
+//line asn1.y:624
 		{
 			yyVAL.Enumeration = append([]EnumerationItem{yyDollar[1].EnumerationItem}, yyDollar[3].Enumeration...)
 		}
 	case 104:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:625
+//line asn1.y:627
 		{
 			yyVAL.EnumerationItem = yyDollar[1].NamedNumber
 		}
 	case 105:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:626
+//line asn1.y:628
 		{
 			yyVAL.EnumerationItem = Identifier(yyDollar[1].name)
 		}
 	case 106:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:631
+//line asn1.y:633
 		{
 			yyVAL.Type = RealType{}
 		}
 	case 109:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:640
+//line asn1.y:642
 		{
 			yyVAL.Value = yyDollar[1].Real
 		}
 	case 110:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:641
+//line asn1.y:643
 		{
 			yyVAL.Value = yyDollar[2].Real.UnaryMinus()
 		}
 	case 111:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:645
+//line asn1.y:647
 		{
 			yyVAL.Value = Real(math.Inf(1))
 		}
 	case 112:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:646
+//line asn1.y:648
 		{
 			yyVAL.Value = Real(math.Inf(-1))
 		}
 	case 113:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:650
+//line asn1.y:652
 		{
 			yyVAL.Real = parseRealNumber(yyDollar[1].Number, 0, 0)
 		}
 	case 114:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:651
+//line asn1.y:653
 		{
 			yyVAL.Real = parseRealNumber(yyDollar[1].Number, yyDollar[3].Number, 0)
 		}
 	case 115:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:652
+//line asn1.y:654
 		{
 			yyVAL.Real = parseRealNumber(yyDollar[1].Number, yyDollar[3].Number, yyDollar[5].Number)
 		}
 	case 116:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:653
+//line asn1.y:655
 		{
 			yyVAL.Real = parseRealNumber(yyDollar[1].Number, 0, yyDollar[3].Number)
 		}
 	case 118:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:657
+//line asn1.y:659
 		{
 			yyVAL.Number = Number(-int(yyDollar[2].Number))
 		}
 	case 119:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:662
+//line asn1.y:664
 		{
 			yyVAL.Type = BitStringType{}
 		}
 	case 120:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:663
+//line asn1.y:665
 		{
 			yyVAL.Type = BitStringType{NamedBits: yyDollar[4].NamedBitList}
 		}
 	case 121:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:666
+//line asn1.y:668
 		{
 			yyVAL.NamedBitList = append(make([]NamedBit, 0), yyDollar[1].NamedBit)
 		}
 	case 122:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:667
+//line asn1.y:669
 		{
 			yyVAL.NamedBitList = append(yyDollar[1].NamedBitList, yyDollar[3].NamedBit)
 		}
 	case 123:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:670
+//line asn1.y:672
 		{
 			yyVAL.NamedBit = NamedBit{Name: Identifier(yyDollar[1].name), Index: yyDollar[3].Number}
 		}
 	case 124:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:671
+//line asn1.y:673
 		{
 			yyVAL.NamedBit = NamedBit{Name: Identifier(yyDollar[1].name), Index: yyDollar[3].DefinedValue}
 		}
 	case 125:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:676
+//line asn1.y:678
 		{
 			yyVAL.Type = OctetStringType{}
 		}
 	case 126:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:681
+//line asn1.y:683
 		{
 			yyVAL.Type = NullType{}
 		}
 	case 127:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:686
+//line asn1.y:688
 		{
 			yyVAL.Type = SequenceType{}
 		}
 	case 128:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:687
+//line asn1.y:689
 		{
 			yyVAL.Type = SequenceType{}
 		}
 	case 129:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:688
+//line asn1.y:690
 		{
 			yyVAL.Type = SequenceType{Components: append(yyDollar[3].ComponentTypeLists.Components, yyDollar[3].ComponentTypeLists.TrailingComponents...), ExtensionAdditions: yyDollar[3].ComponentTypeLists.ExtensionAdditions}
 		}
 	case 134:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:700
+//line asn1.y:702
 		{
 			yyVAL.ComponentTypeLists = ComponentTypeLists{Components: yyDollar[1].ComponentTypeList}
 		}
 	case 135:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:701
+//line asn1.y:703
 		{
 			yyVAL.ComponentTypeLists = ComponentTypeLists{Components: yyDollar[1].ComponentTypeList, ExtensionAdditions: yyDollar[4].ExtensionAdditions}
 		}
 	case 136:
 		yyDollar = yyS[yypt-7 : yypt+1]
-//line asn1.y:702
+//line asn1.y:704
 		{
 			yyVAL.ComponentTypeLists = ComponentTypeLists{Components: yyDollar[1].ComponentTypeList, ExtensionAdditions: yyDollar[4].ExtensionAdditions, TrailingComponents: yyDollar[7].ComponentTypeList}
 		}
 	case 139:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:714
+//line asn1.y:716
 		{
 			yyVAL.ExtensionAdditions = yyDollar[2].ExtensionAdditions
 		}
 	case 140:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:715
+//line asn1.y:717
 		{
 			yyVAL.ExtensionAdditions = nil
 		}
 	case 141:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:718
+//line asn1.y:720
 		{
 			yyVAL.ExtensionAdditions = append([]ExtensionAddition{}, yyDollar[1].ExtensionAdditions...)
 		}
 	case 142:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:719
+//line asn1.y:721
 		{
 			yyVAL.ExtensionAdditions = append(yyDollar[1].ExtensionAdditions, yyDollar[3].ExtensionAdditions...)
 		}
 	case 143:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:722
+//line asn1.y:724
 		{
 			yyVAL.ExtensionAdditions = []ExtensionAddition{yyDollar[1].ComponentType}
 		}
 	case 144:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:723
+//line asn1.y:725
 		{
 			yyVAL.ExtensionAdditions = nil
 		}
 	case 148:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:732
+//line asn1.y:734
 		{
 			yyVAL.ComponentTypeList = append(make(ComponentTypeList, 0), yyDollar[1].ComponentType)
 		}
 	case 149:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:733
+//line asn1.y:735
 		{
 			yyVAL.ComponentTypeList = append(yyDollar[1].ComponentTypeList, yyDollar[3].ComponentType)
 		}
 	case 150:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:736
+//line asn1.y:738
 		{
 			yyVAL.ComponentType = NamedComponentType{NamedType: yyDollar[1].NamedType}
 		}
 	case 151:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:737
+//line asn1.y:739
 		{
 			yyVAL.ComponentType = NamedComponentType{NamedType: yyDollar[1].NamedType, IsOptional: true}
 		}
 	case 152:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:738
+//line asn1.y:740
 		{
 			yyVAL.ComponentType = NamedComponentType{NamedType: yyDollar[1].NamedType, Default: &yyDollar[3].Value}
 		}
 	case 153:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:739
+//line asn1.y:741
 		{
 			yyVAL.ComponentType = ComponentsOfComponentType{Type: yyDollar[3].Type}
 		}
 	case 154:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:744
+//line asn1.y:746
 		{
 			yyVAL.Type = SetType{}
 		}
 	case 155:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:745
+//line asn1.y:747
 		{
 			yyVAL.Type = SetType{}
 		}
 	case 156:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:746
+//line asn1.y:748
 		{
 			yyVAL.Type = SetType{Components: append(yyDollar[3].ComponentTypeLists.Components, yyDollar[3].ComponentTypeLists.TrailingComponents...), ExtensionAdditions: yyDollar[3].ComponentTypeLists.ExtensionAdditions}
 		}
 	case 157:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:751
+//line asn1.y:753
 		{
 			yyVAL.Type = SetOfType{yyDollar[3].Type}
 		}
 	case 158:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:752
+//line asn1.y:754
 		{
 			yyVAL.Type = SetOfType{yyDollar[3].NamedType}
 		}
 	case 159:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:756
+//line asn1.y:758
 		{
 			yyVAL.Type = AnyType{}
 		}
 	case 160:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:757
+//line asn1.y:759
 		{
 			yyVAL.Type = AnyType{Identifier(yyDollar[4].name)}
 		}
 	case 161:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:762
+//line asn1.y:764
 		{
 			yyVAL.Type = yyDollar[3].ChoiceType
 		}
 	case 162:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:765
+//line asn1.y:767
 		{
 			yyVAL.ChoiceType = ChoiceType{yyDollar[1].AlternativeTypeList, yyDollar[4].ExtensionAdditionAlternativesList}
 		}
 	case 163:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:766
+//line asn1.y:768
 		{
 			yyVAL.ChoiceType = ChoiceType{AlternativeTypeList: yyDollar[1].AlternativeTypeList}
 		}
 	case 164:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:767
+//line asn1.y:769
 		{
 			yyVAL.ChoiceType = ChoiceType{nil, yyDollar[2].ExtensionAdditionAlternativesList}
 		}
 	case 166:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:774
+//line asn1.y:776
 		{
 			yyVAL.ExtensionAdditionAlternativesList = yyDollar[2].ExtensionAdditionAlternativesList
 		}
 	case 167:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:775
+//line asn1.y:777
 		{
 			yyVAL.ExtensionAdditionAlternativesList = make([]ChoiceExtension, 0)
 		}
 	case 168:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:778
+//line asn1.y:780
 		{
 			yyVAL.ExtensionAdditionAlternativesList = append(make([]ChoiceExtension, 0), yyDollar[1].ExtensionAdditionAlternative)
 		}
 	case 169:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:779
+//line asn1.y:781
 		{
 			yyVAL.ExtensionAdditionAlternativesList = append(yyDollar[1].ExtensionAdditionAlternativesList, yyDollar[3].ExtensionAdditionAlternative)
 		}
 	case 170:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:783
+//line asn1.y:785
 		{
 			yyVAL.ExtensionAdditionAlternative = yyDollar[1].NamedType
 		}
 	case 172:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:790
+//line asn1.y:792
 		{
 			yyVAL.AlternativeTypeList = append(make([]NamedType, 0), yyDollar[1].NamedType)
 		}
 	case 173:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:791
+//line asn1.y:793
 		{
 			yyVAL.AlternativeTypeList = append(yyDollar[1].AlternativeTypeList, yyDollar[3].NamedType)
 		}
 	case 174:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:796
+//line asn1.y:798
 		{
 			yyVAL.Type = TaggedType{Tag: yyDollar[1].Tag, Type: yyDollar[2].Type}
 		}
 	case 175:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:797
+//line asn1.y:799
 		{
 			yyVAL.Type = TaggedType{Tag: yyDollar[1].Tag, Type: yyDollar[3].Type, TagType: TAGS_IMPLICIT, HasTagType: true}
 		}
 	case 176:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:798
+//line asn1.y:800
 		{
 			yyVAL.Type = TaggedType{Tag: yyDollar[1].Tag, Type: yyDollar[3].Type, TagType: TAGS_EXPLICIT, HasTagType: true}
 		}
 	case 177:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:801
+//line asn1.y:803
 		{
 			yyVAL.Tag = Tag{Class: yyDollar[2].Class, ClassNumber: yyDollar[3].Value}
 		}
 	case 178:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:804
+//line asn1.y:806
 		{
 			yyVAL.Value = yyDollar[1].Number
 		}
 	case 179:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:805
+//line asn1.y:807
 		{
 			yyVAL.Value = yyDollar[1].DefinedValue
 		}
 	case 180:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:808
+//line asn1.y:810
 		{
 			yyVAL.Class = CLASS_UNIVERSAL
 		}
 	case 181:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:809
+//line asn1.y:811
 		{
 			yyVAL.Class = CLASS_APPLICATION
 		}
 	case 182:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:810
+//line asn1.y:812
 		{
 			yyVAL.Class = CLASS_PRIVATE
 		}
 	case 183:
 		yyDollar = yyS[yypt-0 : yypt+1]
-//line asn1.y:811
+//line asn1.y:813
 		{
 			yyVAL.Class = CLASS_CONTEXT_SPECIFIC
 		}
 	case 184:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:816
+//line asn1.y:818
 		{
 			yyVAL.Type = SequenceOfType{yyDollar[3].Type}
 		}
 	case 185:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:817
+//line asn1.y:819
 		{
 			yyVAL.Type = SequenceOfType{yyDollar[3].NamedType}
 		}
 	case 186:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:822
+//line asn1.y:824
 		{
 			yyVAL.Type = ObjectIdentifierType{}
 		}
 	case 187:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:827
+//line asn1.y:829
 		{
 			yyVAL.ObjectIdentifierValue = yyDollar[2].ObjectIdentifierValue
 		}
 	case 188:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:828
+//line asn1.y:830
 		{
 			yyVAL.ObjectIdentifierValue = append(ObjectIdentifierValue{ObjectIdElement{Reference: &yyDollar[2].DefinedValue}}, yyDollar[3].ObjectIdentifierValue...)
 		}
 	case 189:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:831
+//line asn1.y:833
 		{
 			yyVAL.ObjectIdentifierValue = ObjectIdentifierValue{yyDollar[1].ObjectIdElement}
 		}
 	case 190:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:832
+//line asn1.y:834
 		{
 			yyVAL.ObjectIdentifierValue = append(ObjectIdentifierValue{yyDollar[1].ObjectIdElement}, yyDollar[2].ObjectIdentifierValue...)
 		}
 	case 191:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:835
+//line asn1.y:837
 		{
 			yyVAL.ObjectIdElement = ObjectIdElement{Name: yyDollar[1].name}
 		}
 	case 194:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:838
+//line asn1.y:840
 		{
 			cpy := yyDollar[1].DefinedValue
 			yyVAL.ObjectIdElement = ObjectIdElement{Reference: &cpy}
 		}
 	case 195:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:841
+//line asn1.y:843
 		{
 			yyVAL.ObjectIdElement = ObjectIdElement{ID: yyDollar[1].Number.IntValue()}
 		}
 	case 196:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:842
+//line asn1.y:844
 		{
 			cpy := yyDollar[1].DefinedValue
 			yyVAL.ObjectIdElement = ObjectIdElement{Reference: &cpy}
 		}
 	case 197:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:846
+//line asn1.y:848
 		{
 			yyVAL.ObjectIdElement = ObjectIdElement{Name: yyDollar[1].name, ID: yyDollar[3].ObjectIdElement.ID, Reference: yyDollar[3].ObjectIdElement.Reference}
 		}
 	case 201:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:858
+//line asn1.y:860
 		{
 			yyVAL.Type = RestrictedStringType{LexType: BMPString}
 		}
 	case 202:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:859
+//line asn1.y:861
 		{
 			yyVAL.Type = RestrictedStringType{LexType: GeneralString}
 		}
 	case 203:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:860
+//line asn1.y:862
 		{
 			yyVAL.Type = RestrictedStringType{LexType: GraphicString}
 		}
 	case 204:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:861
+//line asn1.y:863
 		{
 			yyVAL.Type = RestrictedStringType{LexType: IA5String}
 		}
 	case 205:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:862
+//line asn1.y:864
 		{
 			yyVAL.Type = RestrictedStringType{LexType: ISO646String}
 		}
 	case 206:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:863
+//line asn1.y:865
 		{
 			yyVAL.Type = RestrictedStringType{LexType: NumericString}
 		}
 	case 207:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:864
+//line asn1.y:866
 		{
 			yyVAL.Type = RestrictedStringType{LexType: PrintableString}
 		}
 	case 208:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:865
+//line asn1.y:867
 		{
 			yyVAL.Type = RestrictedStringType{LexType: TeletexString}
 		}
 	case 209:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:866
+//line asn1.y:868
 		{
 			yyVAL.Type = RestrictedStringType{LexType: T61String}
 		}
 	case 210:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:867
+//line asn1.y:869
 		{
 			yyVAL.Type = RestrictedStringType{LexType: UniversalString}
 		}
 	case 211:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:868
+//line asn1.y:870
 		{
 			yyVAL.Type = RestrictedStringType{LexType: UTF8String}
 		}
 	case 212:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:869
+//line asn1.y:871
 		{
 			yyVAL.Type = RestrictedStringType{LexType: VideotexString}
 		}
 	case 213:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:870
+//line asn1.y:872
 		{
 			yyVAL.Type = RestrictedStringType{LexType: VisibleString}
 		}
 	case 214:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:875
+//line asn1.y:877
 		{
 			yyVAL.Type = CharacterStringType{}
 		}
 	case 215:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:880
+//line asn1.y:882
 		{
 			yyVAL.Type = TypeReference("GeneralizedTime")
 		}
 	case 216:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:881
+//line asn1.y:883
 		{
 			yyVAL.Type = TypeReference("UTCTime")
 		}
 	case 217:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:886
+//line asn1.y:888
 		{
 			yyVAL.Type = ConstraintedType{yyDollar[1].Type, yyDollar[2].Constraint}
 		}
 	case 219:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:892
+//line asn1.y:894
 		{
 			yyVAL.Type = ConstraintedType{SetOfType{yyDollar[4].Type}, yyDollar[2].Constraint}
 		}
 	case 220:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:893
+//line asn1.y:895
 		{
 			yyVAL.Type = ConstraintedType{SetOfType{yyDollar[4].Type}, SingleElementConstraint(yyDollar[2].Elements)}
 		}
 	case 221:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:894
+//line asn1.y:896
 		{
 			yyVAL.Type = ConstraintedType{SequenceOfType{yyDollar[4].Type}, yyDollar[2].Constraint}
 		}
 	case 222:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:895
+//line asn1.y:897
 		{
 			yyVAL.Type = ConstraintedType{SequenceOfType{yyDollar[4].Type}, SingleElementConstraint(yyDollar[2].Elements)}
 		}
 	case 223:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:896
+//line asn1.y:898
 		{
 			yyVAL.Type = ConstraintedType{SetOfType{yyDollar[4].NamedType}, yyDollar[2].Constraint}
 		}
 	case 224:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:897
+//line asn1.y:899
 		{
 			yyVAL.Type = ConstraintedType{SetOfType{yyDollar[4].NamedType}, SingleElementConstraint(yyDollar[2].Elements)}
 		}
 	case 225:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:898
+//line asn1.y:900
 		{
 			yyVAL.Type = ConstraintedType{SequenceOfType{yyDollar[4].NamedType}, yyDollar[2].Constraint}
 		}
 	case 226:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:899
+//line asn1.y:901
 		{
 			yyVAL.Type = ConstraintedType{SequenceOfType{yyDollar[4].NamedType}, SingleElementConstraint(yyDollar[2].Elements)}
 		}
 	case 227:
 		yyDollar = yyS[yypt-4 : yypt+1]
-//line asn1.y:904
+//line asn1.y:906
 		{
 			yyVAL.Constraint = Constraint{ConstraintSpec: yyDollar[2].ConstraintSpec}
 		}
 	case 228:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:907
+//line asn1.y:909
 		{
 			yyVAL.ConstraintSpec = yyDollar[1].SubtypeConstraint
 		}
 	case 231:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:917
+//line asn1.y:919
 		{
 			yyVAL.SubtypeConstraint = yyDollar[1].SubtypeConstraint
 		}
 	case 232:
 		yyDollar = yyS[yypt-5 : yypt+1]
-//line asn1.y:918
+//line asn1.y:920
 		{
 			yyVAL.SubtypeConstraint = append(yyDollar[1].SubtypeConstraint, yyDollar[5].ElementSetSpec)
 		}
 	case 233:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:921
+//line asn1.y:923
 		{
 			yyVAL.SubtypeConstraint = SubtypeConstraint{yyDollar[1].ElementSetSpec}
 		}
 	case 235:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:927
+//line asn1.y:929
 		{
 			yyVAL.ElementSetSpec = yyDollar[1].Unions
 		}
 	case 236:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:928
+//line asn1.y:930
 		{
 			yyVAL.ElementSetSpec = yyDollar[2].Exclusions
 		}
 	case 237:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:931
+//line asn1.y:933
 		{
 			yyVAL.Unions = Unions{yyDollar[1].Intersections}
 		}
 	case 238:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:932
+//line asn1.y:934
 		{
 			yyVAL.Unions = append(yyDollar[1].Unions, yyDollar[3].Intersections)
 		}
 	case 240:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:938
+//line asn1.y:940
 		{
 			yyVAL.Intersections = Intersections{yyDollar[1].IntersectionElements}
 		}
 	case 241:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:939
+//line asn1.y:941
 		{
 			yyVAL.Intersections = append(yyDollar[1].Intersections, yyDollar[3].IntersectionElements)
 		}
 	case 243:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:945
+//line asn1.y:947
 		{
 			yyVAL.IntersectionElements = IntersectionElements{Elements: yyDollar[1].Elements}
 		}
 	case 244:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:946
+//line asn1.y:948
 		{
 			yyVAL.IntersectionElements = IntersectionElements{Elements: yyDollar[1].Elements, Exclusions: yyDollar[2].Exclusions}
 		}
 	case 246:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:952
+//line asn1.y:954
 		{
 			yyVAL.Exclusions = Exclusions{yyDollar[2].Elements}
 		}
 	case 251:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:961
+//line asn1.y:963
 		{
 			yyVAL.Elements = yyDollar[1].Elements
 		}
 	case 252:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:963
+//line asn1.y:965
 		{
 			yyVAL.Elements = yyDollar[2].ElementSetSpec
 		}
 	case 258:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:978
+//line asn1.y:980
 		{
 			yyVAL.Elements = SingleValue{yyDollar[1].Value}
 		}
 	case 259:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:983
+//line asn1.y:985
 		{
 			yyVAL.Elements = ValueRange{yyDollar[1].RangeEndpoint, yyDollar[3].RangeEndpoint}
 		}
 	case 260:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:986
+//line asn1.y:988
 		{
 			yyVAL.RangeEndpoint = RangeEndpoint{Value: yyDollar[1].Value}
 		}
 	case 261:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:987
+//line asn1.y:989
 		{
 			yyVAL.RangeEndpoint = RangeEndpoint{Value: yyDollar[1].Value, IsOpen: true}
 		}
 	case 262:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:990
+//line asn1.y:992
 		{
 			yyVAL.RangeEndpoint = RangeEndpoint{Value: yyDollar[1].Value}
 		}
 	case 263:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:991
+//line asn1.y:993
 		{
 			yyVAL.RangeEndpoint = RangeEndpoint{Value: yyDollar[2].Value, IsOpen: true}
 		}
 	case 265:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:995
+//line asn1.y:997
 		{
 			yyVAL.Value = nil
 		}
 	case 267:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:999
+//line asn1.y:1001
 		{
 			yyVAL.Value = nil
 		}
 	case 268:
 		yyDollar = yyS[yypt-2 : yypt+1]
-//line asn1.y:1004
+//line asn1.y:1006
 		{
 			yyVAL.Elements = SizeConstraint{yyDollar[2].Constraint}
 		}
 	case 269:
 		yyDollar = yyS[yypt-1 : yypt+1]
-//line asn1.y:1009
+//line asn1.y:1011
 		{
 			yyVAL.Elements = TypeConstraint{yyDollar[1].Type}
 		}
 	case 270:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:1014
+//line asn1.y:1016
 		{
 			yyVAL.Elements = InnerTypeConstraint{}
 		}
 	case 271:
 		yyDollar = yyS[yypt-3 : yypt+1]
-//line asn1.y:1015
+//line asn1.y:1017
 		{
 			yyVAL.Elements = InnerTypeConstraint{}
 		}
