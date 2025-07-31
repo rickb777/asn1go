@@ -1,3 +1,4 @@
-.idea
+/.idea/
+/bin/
 y.output
 *_generated.go

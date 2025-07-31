@@ -6,9 +6,9 @@ import (
 	"testing"
 )
 
-func lexForString(str string) *MyLexer {
+func lexForString(str string) *ASN1Lexer {
 	reader := bufio.NewReader(strings.NewReader(str))
-	return &MyLexer{bufReader: reader}
+	return &ASN1Lexer{bufReader: reader}
 }
 
 func testLexemType(t *testing.T, input string, expectedType int) {

@@ -22,8 +22,8 @@ func TestMessagesDeclared(t *testing.T) {
 
 type testCase struct {
 	bytes    []byte
-	value    interface{} // should be pointer
-	expected interface{} // should be value
+	value    any // should be pointer
+	expected any // should be value
 }
 
 func messageTest(t *testing.T, item testCase) {

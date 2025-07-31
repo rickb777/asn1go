@@ -1,5 +1,13 @@
-default: y.go generate
+default: bin/asn1go bin/ws2bin
 .PHONY: default
+
+bin/asn1go: y.go generate test
+	mkdir -p bin
+	go build -o $@ ./cmd/asn1go
+
+bin/ws2bin: y.go generate test
+	mkdir -p bin
+	go build -o $@ ./cmd/ws2bin
 
 y.go: asn1.y tool
 	goyacc asn1.y
@@ -32,9 +40,10 @@ yacc: y.go
 
 clean:
 	rm -f y.go
+	rm -rf bin
 	find . -name '*_generated.go' -exec rm '{}' \;
 .PHONY: clean
 
-test: default
-	go test -v ./...
+test: generate
+	go test ./...
 .PHONY: test

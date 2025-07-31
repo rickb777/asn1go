@@ -3,12 +3,12 @@ package examples
 import (
 	"bytes"
 	"github.com/chemikadze/asn1go"
-	"io/ioutil"
+	"os"
 	"testing"
 )
 
 func testExampleParsing(t *testing.T, filename string) *asn1go.ModuleDefinition {
-	content, err := ioutil.ReadFile(filename)
+	content, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("Failed to read file: %s", err.Error())
 	}

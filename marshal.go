@@ -2,16 +2,16 @@ package asn1go
 
 import (
 	"encoding/asn1"
-	"io/ioutil"
 	"os"
 )
 
-func MarshalToFile(val interface{}, path string, mode os.FileMode) error {
+// MarshalToFile writes the ASN.1 encoding of val to the file specified by path.
+func MarshalToFile(val any, path string, mode os.FileMode) error {
 	data, err := asn1.Marshal(val)
 	if err != nil {
 		return err
 	}
-	err = ioutil.WriteFile(path, data, mode)
+	err = os.WriteFile(path, data, mode)
 	if err != nil {
 		return err
 	}

@@ -40,7 +40,7 @@ so all its limitations (no real CHOICE support) apply for this project as well.
 | BIT STRING        | Yes       | Yes; named bits not translated         |
 | BOOLEAN           | Yes       | Yes                                    |
 | CHARACTER STRING  | Yes       | Yes                                    |
-| CHOICE            | Yes       | Yes; common demoninator type is used   |
+| CHOICE            | Yes       | Yes; common denominator type is used   |
 | Embedded PDV      | No        |                                        |
 | External          | No        |                                        |
 | ENUMERATED        | Yes [^t4] | Yes; alternative values not translated |

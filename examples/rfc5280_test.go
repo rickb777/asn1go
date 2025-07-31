@@ -3,7 +3,7 @@ package examples
 import (
 	"encoding/asn1"
 	"encoding/pem"
-	"io/ioutil"
+	"os"
 	"testing"
 )
 
@@ -17,7 +17,7 @@ func TestX509Declarations(t *testing.T) {
 }
 
 func TestX509Parsing(t *testing.T) {
-	data, err := ioutil.ReadFile("testdata/_.google.crt")
+	data, err := os.ReadFile("testdata/_.google.crt")
 	if err != nil {
 		t.Fatalf("Failed to read crt: %v", err)
 	}
