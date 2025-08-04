@@ -139,8 +139,9 @@ func goifyName(name string) string {
 //
 // Feature support status:
 // - [.] AssignmentList
-//    - [ ] ValueAssignment
-//    - [x] TypeAssignment
+//   - [ ] ValueAssignment
+//   - [x] TypeAssignment
+//
 // - [ ] Imports
 func (ctx *moduleContext) generateDeclarations(module ModuleDefinition) []goast.Decl {
 	decls := make([]goast.Decl, 0)
