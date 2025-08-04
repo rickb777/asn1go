@@ -1,11 +1,11 @@
 default: bin/asn1go bin/ws2bin
 .PHONY: default
 
-bin/asn1go: y.go generate test
+bin/asn1go: y.go generate test style
 	mkdir -p bin
 	go build -o $@ ./cmd/asn1go
 
-bin/ws2bin: y.go generate test
+bin/ws2bin: y.go generate test style
 	mkdir -p bin
 	go build -o $@ ./cmd/ws2bin
 
